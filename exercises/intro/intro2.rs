@@ -4,5 +4,6 @@
 
 
 fn main() {
-    println!("Hello {}!", "world");
+    let greeting = "Hello";
+    println!("Hello {greeting}!");
 }

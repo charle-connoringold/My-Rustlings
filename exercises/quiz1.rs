@@ -13,11 +13,10 @@
 
 // Put your function here!
 fn calculate_price_of_apples(apples: i16) -> i16 {
-    if apples > 40 {
-        apples
-    } else {
-        apples * 2
+    if(apples > 40) {
+        return apples
     }
+    apples * 2
 }
 
 // Don't modify this function!
